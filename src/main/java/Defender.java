@@ -3,6 +3,9 @@ public class Defender extends Vehicle{
         super(type, healthValue);
     }
 
+
+//    why aren't these working??
+
     public void ram(Kaiju kaiju){
          int health = kaiju.getHealthValue();
           health -= 10;
