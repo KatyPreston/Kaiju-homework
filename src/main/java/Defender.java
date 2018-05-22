@@ -7,14 +7,11 @@ public class Defender extends Vehicle{
 //    why aren't these working??
 
     public void ram(Kaiju kaiju){
-         int health = kaiju.getHealthValue();
-          health -= 10;
+         kaiju.takesDamage(10);
     }
 
     public void fireOn(Kaiju kaiju){
-        int health = kaiju.getHealthValue();
-        health -= 20;
-
+        kaiju.takesDamage(20);
     }
 
 }

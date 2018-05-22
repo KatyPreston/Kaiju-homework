@@ -9,13 +9,11 @@ public class Tank extends Vehicle {
 //    why aren't these working??
 
     public void ram(Kaiju kaiju){
-        int health = kaiju.getHealthValue();
-        health -= 20;
+        kaiju.takesDamage(20);
     }
 
     public void fireOn(Kaiju kaiju){
-        int health = kaiju.getHealthValue();
-        health -= 40;
+        kaiju.takesDamage(40);
     }
 
 }
