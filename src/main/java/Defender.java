@@ -4,8 +4,6 @@ public class Defender extends Vehicle{
     }
 
 
-//    why aren't these working??
-
     public void ram(Kaiju kaiju){
          kaiju.takesDamage(10);
     }
